@@ -76,8 +76,8 @@ def current_player
  false
 end
 
-def full?(board)
-  board.each do |full|
+def full?
+  @board.each do |full|
     if full == " "
      return false
     end
