@@ -45,7 +45,7 @@ def turn_count
     @board.count{|token| token == "X" || token == "O"}
 end
 
-def turn(board)
+def turn
   puts "Please enter 1-9:"
   user_input = gets
   index = input_to_index(user_input)
@@ -53,7 +53,7 @@ def turn(board)
    move(board, index, value = current_player(board))
    display_board(board)
  else
-     turn(board)
+     turn
    end
  end
 
