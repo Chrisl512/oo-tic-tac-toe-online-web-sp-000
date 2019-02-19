@@ -53,6 +53,10 @@ def turn(board)
    end
  end
 
+ def turn_count
+     @board.count{|token| token == "X" || token == "O"}
+   end
+
  def turn_count(board)
   counter = 0
   board.each do |turn|
