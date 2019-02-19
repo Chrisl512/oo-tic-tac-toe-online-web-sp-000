@@ -28,8 +28,8 @@ class TicTacToe
     user_input.to_i - 1
   end
 
-  def move(Array.new(9, " "), index, value)
-  array[index] = value
+  def move(array.new(9, " "), index, value)
+  array.new(9, " ")[index] = value
 end
 
 def move(array, index, value)
