@@ -30,7 +30,7 @@ class TicTacToe
 
 
 def move(@board[index], value)
-  array[index] = value
+  @board[index] = value
 end
 
 def position_taken?(board, index)
