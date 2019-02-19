@@ -49,9 +49,9 @@ def turn
   puts "Please enter 1-9:"
   user_input = gets
   index = input_to_index(user_input)
-  if valid_move?(board, index) == true
+  if valid_move?(index) == true
    move(board, index, value = current_player(board))
-   display_board(board)
+   display_board
  else
      turn
    end
