@@ -41,19 +41,19 @@ def valid_move?(index)
  index.between?(0, 8) && !position_taken?(index)
 end
 
-#def turn_count
-  #  @board.count{|token| token == "X" || token == "O"}
-  #end
+def turn_count
+    @board.count{|token| token == "X" || token == "O"}
+  end
 
-def turn_count(board)
- counter = 0
- @board.each do |turn|
-   if turn == "X" || turn == "O"
-     counter += 1
-   end
- end
-  counter
-end
+#def turn_count(board)
+ #counter = 0
+ #@board.each do |turn|
+  # if turn == "X" || turn == "O"
+  #   counter += 1
+  # end
+ #end
+#  counter
+#end
 
 def turn(board)
   puts "Please enter 1-9:"
