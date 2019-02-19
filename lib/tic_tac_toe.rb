@@ -57,8 +57,6 @@ def turn
    end
  end
 
-
-
 def current_player(board)
   if turn_count(board) % 2 == 0
     "X"
@@ -67,9 +65,9 @@ def current_player(board)
   end
  end
 
- def current_player
-    turn_count % 2 == 0 ? "X" : "O"
-  end
+ #def current_player
+  #  turn_count % 2 == 0 ? "X" : "O"
+  #end
 
  def won?(board)
   WIN_COMBINATIONS.each do |win_combination|
