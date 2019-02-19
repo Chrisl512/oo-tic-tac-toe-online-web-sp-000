@@ -104,7 +104,7 @@ else
  end
 end
 
-def play(board)
+def play
   until over?(board)
     turn(board)
   end
@@ -113,6 +113,5 @@ def play(board)
     draw?(board)
      puts "Cat's Game!"
 end
-
 
 end
