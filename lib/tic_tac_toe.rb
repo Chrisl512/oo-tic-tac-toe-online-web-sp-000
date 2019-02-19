@@ -29,7 +29,7 @@ class TicTacToe
   end
 
 
-def move(array, index, value)
+def move(index, value)
   array[index] = value
 end
 
