@@ -89,9 +89,9 @@ def draw?
 end
 
 def over?
-    if draw?(board)
+    if draw?
      true
-   elsif !!won?(board)
+   elsif !!won?
      true
  end
 end
