@@ -97,7 +97,7 @@ def over?
 end
 
 def winner
-if won?(board)
+if won?
   return board[won?(board)[0]]
 else
   return nil
