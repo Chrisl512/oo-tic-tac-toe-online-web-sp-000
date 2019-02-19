@@ -88,7 +88,7 @@ def draw?
   !won? && full?
 end
 
-def over?(board)
+def over?
     if draw?(board)
      true
    elsif !!won?(board)
