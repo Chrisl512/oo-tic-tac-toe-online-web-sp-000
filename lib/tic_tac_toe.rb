@@ -109,7 +109,7 @@ def play
     turn
   end
     won?
-     puts "Congratulations #{winner(board)}!"
+     puts "Congratulations #{winner}!"
     draw?
      puts "Cat's Game!"
 end
